@@ -49,9 +49,9 @@ When accessing the deployed PHANTOM Security Operations Center (SOC) web portal,
 
 | Parameter | Value / Credential | Notes |
 | :--- | :--- | :--- |
-| **Username** | `Shresth` *(or `admin`, `phantom`)* | Case-insensitive; configured in `frontend/.env` |
-| **Password** | `PHANTOM` | Plaintext entry; hashed via browser WebCrypto SHA-256 |
-| **SHA-256 Hash** | `740773781ff0c3196ebf41b8346741f06f2bfecd566f0c8cf2313253ebf6bd22` | Verified against client-side environment token |
+| **Username** | `Winner` *(also accepts `Shresth`, `admin`, `phantom`)* | Case-insensitive; configured in `frontend/.env` |
+| **Password** | `Phantom` *(or `PHANTOM`)* | Plaintext entry; hashed via browser WebCrypto SHA-256 |
+| **SHA-256 Hash** | `08b6a3efc2b5fe15eef6ff08416f7ff4c45f95d41215ccd3c13e4e5d77a1b6e8` | Verified against client-side environment token |
 | **Auth Gateway** | `frontend/src/components/phantom/IntroPage.tsx` | Features built-in fallback defaults for 100% permanent uptime |
 
 ---
@@ -486,3 +486,4 @@ PSBHackathon/
 ---
 
 *Compiled by the PHANTOM Engineering Team for Bank of Baroda × IIT Gandhinagar PSB Hackathon 2026.*
+
